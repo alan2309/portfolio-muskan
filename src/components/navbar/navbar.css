@@ -1,0 +1,21 @@
+.main-div{
+    height: 100vh;
+    width:100%;
+}
+.navbar {
+  background: transparent;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+/* .navbar .active {
+  background-color: ;
+} */
+.App {
+  z-index: -1;
+}
