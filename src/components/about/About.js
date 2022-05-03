@@ -6,7 +6,7 @@ import avatar from '../../assets/avatar.png'
 
 function About() {
   return (
-    <div className="avatar-img">
+    <div id='about' className="avatar-img">
     <Row>
     <Col style={{flexDirection:"column"}} lg={5}className="d-flex d-lg-block">
     <img style={{width:"35vw",height:"75vh",marginTop:"80px"}} src={avatar} alt="avatar"/>

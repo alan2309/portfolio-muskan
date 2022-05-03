@@ -1,3 +1,7 @@
+# ToDo list
+Add Muskan's Resume
+set mobile view for about section
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
