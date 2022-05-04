@@ -2,11 +2,15 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FiChrome } from 'react-icons/fi';
+import './work.css'
 
 function Work() {
   return (
     <div style={{background:"#f9f7fe"}} id='work' className='main-div'>
-      <h2 className='d-flex justify-content-center'>Work Experience</h2><br/>
+      <h2 className='work-title'>
+        <div className='work-back'>
+        Work Experience</div>
+        </h2><br/>
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
