@@ -1,12 +1,12 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family:'Open Sans'; 
+  --default-font-family: 'Open Sans';
 }
 
 body {
-  font-family: var(--default-font-family);
+  font-family: 'Montserrat', sans-serif;
 }
 h1,
 h2,
@@ -15,11 +15,11 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
 }
 h1 {
-  font-size: 96px ;
+  font-size: 80px ;
   line-height: 1.5;
 }
 
@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 160px 20px 0 20px;
 }
 
 .avatar-img{
@@ -55,10 +55,10 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
   line-height: 1.5;
-  font-size: 28px;
+  font-size: 25px;
 }
 .btn-branding {
     background: var(--branding-color);

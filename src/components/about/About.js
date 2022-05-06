@@ -6,6 +6,7 @@ import avatar from '../../assets/avatar.png'
 
 function About() {
   return (
+    <div>
     <div id='about' className="avatar-img">
     <Row>
     <Col style={{flexDirection:"column"}} lg={5}className="d-flex d-lg-block">
@@ -15,7 +16,8 @@ function About() {
     <div className="hero">
       <p>👋 Hello, I am</p>
       <h1>Muskan Goyal</h1>
-      <TextLoop interval={2000}>
+      
+      <TextLoop interval={3000}>
           <h2 style={{ color: "#1F51FF",fontWeight:"900" }}> Ai Developer.</h2>
           <h2 style={{ color: "#1F51FF",fontWeight:"900" }}> Data Analyst.</h2>
           <h2 style={{ color: "#1F51FF" ,fontWeight:"900"}}> Engineer.</h2>
@@ -30,10 +32,11 @@ function About() {
           Contact me
         </a>
       </div>
-     
     </div>
     </Col>
     </Row>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280"><path fill="#f9f7fe" fill-opacity="1" d="M0,192L80,197.3C160,203,320,213,480,202.7C640,192,800,160,960,170.7C1120,181,1280,235,1360,261.3L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
     </div>
   );
 }

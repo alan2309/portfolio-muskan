@@ -16,10 +16,10 @@ function Navbar() {
           <a className='nav-links' href='#about'>About</a>
         </li>
         <li  onClick={()=>setClick(false)} className='nav-item'>
-          <a className='nav-links' href='#work'>Work</a>
+          <a className='nav-links' href='#projects'>Projects</a>
         </li>
         <li  onClick={()=>setClick(false)} className='nav-item'>
-          <a className='nav-links' href='#projects'>Projects</a>
+          <a className='nav-links' href='#work'>Work</a>
         </li>
         <li  onClick={()=>setClick(false)} className='nav-item'>
           <a className='nav-links' href='/' download="Alankrit's Resume.pdf">Resume</a>

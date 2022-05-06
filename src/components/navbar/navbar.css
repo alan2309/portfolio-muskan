@@ -1,5 +1,5 @@
 .main-div{
-    min-height: 100vh;
+    min-height: 40vh;
     width:100%;
 }
 .navbar{
@@ -10,6 +10,8 @@
   padding:0 30px;
   width:100%;
   z-index: 999;
+  margin:1%;
+  margin-bottom:  20px;
 }
 .logo{
   height: 100%;
@@ -31,7 +33,7 @@
 .nav-links {
   color: #000;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   text-decoration: none;
