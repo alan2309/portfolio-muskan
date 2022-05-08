@@ -1,42 +1,23 @@
 import React from 'react'
 import './contact.css'
+import {ProgressBar} from 'react-bootstrap'
 
 function Contact() {
-//   const [data,setData] = useState({
-//     email:"",
-//     name:"",
-//     subject:"",
-//     message:""
-//   })
-//   function Alert() {
-//     alert("alertttt")
-//   }
-//   function sendEmail(){
-// alert('send email')
 //   }
   return (
-    <div id='contact'>
-    <section className="get-in-touch">
-   <h1 className="title">Get in touch</h1>
-   <form className="contact-form row">
-      <div className="form-field col x-50">
-         <input id="name" className="input-text js-input" type="text" required/>
-         <label className="label" for="name">Name</label>
-      </div>
-      <div className="form-field col x-50">
-         <input id="email" className="input-text js-input" type="email" required/>
-         <label className="label" for="email">E-mail</label>
-      </div>
-      <div className="form-field col x-100">
-         <input id="message" className="input-text js-input" type="text" required/>
-         <label className="label" for="message">Message</label>
-      </div>
-      <div className="form-field col x-100 align-center">
-         <input className="submit-btn" type="submit" value="Submit"/>
-      </div>
-   </form>
-</section>
-  </div>
+     <div id='skills'>
+        <h2 style={{fontSize:"40px",textAlign:"center",fontFamily:"Montserrat",fontWeight:"800"}}>Skills</h2>
+           <div style={{marginBottom:"60px",marginTop:"20px"}} className='container'>
+              <label style={{fontFamily:"Montserrat",fontWeight:"500",fontSize:"20px"}}>Html</label>
+        <ProgressBar className='p' variant="success" now={40} label={`40%`} />
+        <label style={{fontFamily:"Montserrat",fontWeight:"500",fontSize:"20px"}}>Html</label>
+        <ProgressBar className='p' variant="success" now={40} label={`40%`} />
+        <label style={{fontFamily:"Montserrat",fontWeight:"500",fontSize:"20px"}}>Html</label>
+        <ProgressBar className='p' variant="success" now={40} label={`40%`}/>
+        <label style={{fontFamily:"Montserrat",fontWeight:"500",fontSize:"20px"}}>Html</label>
+        <ProgressBar className='p' variant="success" now={40} label={`40%`}/>
+        </div>
+          </div>
 );
 }
 

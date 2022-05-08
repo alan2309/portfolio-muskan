@@ -22,10 +22,10 @@ function Navbar() {
           <a className='nav-links' href='#work'>Work</a>
         </li>
         <li  onClick={()=>setClick(false)} className='nav-item'>
-          <a className='nav-links' href='/' download="Alankrit's Resume.pdf">Resume</a>
+          <a className='nav-links' href='#skills'>Skills</a>
         </li>
         <li  onClick={()=>setClick(false)} className='nav-item'>
-          <a className='nav-links' href='#contact'>Contact</a>
+          <a className='nav-links' href='#footer'>Contact</a>
         </li>
       </ul>
     </div>

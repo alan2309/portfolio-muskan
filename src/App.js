@@ -5,6 +5,7 @@ import {
   Projects,
   Work,Footer
 } from './components'
+import Footer2 from './components/footer2/Footer2';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Projects/>
       <Work/>
       <Contact/>
-      <Footer/>
+      <Footer2/>
     </div>
   );
 }
