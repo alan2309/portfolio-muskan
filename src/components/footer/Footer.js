@@ -12,8 +12,8 @@ function Footer() {
             </p>
           </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
+          <div className="col-md-4 col-sm-6 col-xs-12">
+            <ul className="social-icons">
             <li><a className="facebook" href="https://www.github.com/"><FaGithub className='icon' /></a></li>
             <li><a className="dribbble" href="https://www.linkedin.com/"><FaLinkedin className='icon'/></a></li>
               <li><a className="facebook" href="https://www.facebook.com/"><FaFacebook className='icon' /></a></li>

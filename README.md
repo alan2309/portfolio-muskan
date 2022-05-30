@@ -1,9 +1,9 @@
 # ToDo list
 Add Muskan's Resume
 set mobile view for about section
-change contact us
 create new avatar svg
-add skills section
+onclick on phone no
+download icon
 
 ------------------------------------------------------
 

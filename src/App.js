@@ -1,11 +1,11 @@
 import {
   Navbar,
   About,
-  Contact,
   Projects,
-  Work,Footer
+  Work,
 } from './components'
 import Footer2 from './components/footer2/Footer2';
+import Contact2 from './components/contact/Contact2';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <About/>
       <Projects/>
       <Work/>
-      <Contact/>
+      <Contact2/>
       <Footer2/>
     </div>
   );
