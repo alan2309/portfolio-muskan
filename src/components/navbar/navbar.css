@@ -17,7 +17,7 @@ body{
 }
 .logo{
   height: 100%;
-  width: 15vw;
+  width: 12vw;
 }
 .nav-menu {
   display: grid;
@@ -40,6 +40,7 @@ body{
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  /* margin-top: 0.6rem; */
   height: 100%;
 }
 .nav-links:hover {

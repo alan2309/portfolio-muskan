@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #4D3B8B;
   --secondary-color: #f9f7fe;
   --heading-font-family:'Open Sans'; 
   --default-font-family: 'Open Sans';
@@ -41,20 +41,21 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: inherit;
   text-align: center;
   padding: 160px 20px 0 20px;
 }
 
 .avatar-img{
-    background: var(--secondary-color);
+    background: linear-gradient(#250E68,#D9A0E5);
+    /* background-color: var(--secondary-color); */
 }
 
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: white;
 }
 
 .hero h2 {

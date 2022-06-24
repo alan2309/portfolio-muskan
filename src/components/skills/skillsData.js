@@ -1,0 +1,52 @@
+export const sdata=[
+    {
+        skill:"NLTK",
+        percent:"100",
+        color:"red"   
+      },
+    {
+      skill:"PANDAS",
+      percent:"95",
+      color:"#F6C85F"  
+    },
+    {
+        skill:"NUMPY",
+        percent:"80",
+        color:"#6F4E7C"  
+      },
+      {
+        skill:"HTML & CSS",
+        percent:"50",
+        color:"#9DD866"  
+      },
+      {
+        skill:"TABLEAU",
+        percent:"100",
+        color:"#CA472F"    
+      },
+      {
+          skill:"DATA MODELLING",
+          percent:"90",
+          color:"#FFA056"    
+        },
+        {
+          skill:"DATA ANALYSIS",
+          percent:"95",
+          color:"#8DDDD0"    
+        },
+        {
+            skill:"SQL",
+            percent:"50",  
+            color:"#0B84A5" 
+          },
+        {
+            skill:"PYTHON",
+            percent:"100",
+            color:"#AF69A0"    
+          },
+          {
+            skill:"JAVA",
+            percent:"100",
+            color:"#FF7676"    
+          },
+]

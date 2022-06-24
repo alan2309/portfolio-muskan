@@ -1,0 +1,19 @@
+.skill-t{
+    margin-bottom: 40px;
+}
+.skillbar-container {
+  position:relative;
+  display:block;
+  margin-bottom: 15px;   
+  width: 100%;
+  background-color: #666463;
+  background-color: rgba(50,50,50,.1);
+  height:8px;
+  border-radius: 10px;
+}
+  
+.skills {
+    border-radius: 10px;
+  height:8px;
+  width:0px;
+}

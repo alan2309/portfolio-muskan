@@ -1,9 +1,9 @@
 export const wData = [
     {
-        pos:"Project Trainee ",
-        comp:"Winsoft Technology, Mumbai",
-        desc:"Worked in well knit team of developers and specialized in the MERN stack. Successfully made a project component required by the company and deployed the same ",
-        date:"Dec-20 - Mar-21"
+        pos:"Data Visualization Intern",
+        comp:"CACR(NGO)",
+        desc:"Developed a fully functioning website for visualizing the NGO's past and ongoing projects as well as graphically representing the impact they had. Primarily worked with the data they provided and analysed as well as conceptualized it",
+        date:"Aug-21 - Sept-21"
     },
     {
         pos:"Data Analyst Intern",
@@ -12,9 +12,9 @@ export const wData = [
         date:"jun-21 - jul-21"
     },
     {
-        pos:"Data Visualization Intern",
-        comp:"CACR(NGO)",
-        desc:"Developed a fully functioning website for visualizing the NGO's past and ongoing projects as well as graphically representing the impact they had. Primarily worked with the data they provided and analysed as well as conceptualized it",
-        date:"Aug-21 - Sept-21"
-    }
+        pos:"Project Trainee ",
+        comp:"Winsoft Technology, Mumbai",
+        desc:"Worked in well knit team of developers and specialized in the MERN stack. Successfully made a project component required by the company and deployed the same ",
+        date:"Dec-20 - Mar-21"
+    },
 ]

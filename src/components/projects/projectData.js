@@ -25,11 +25,6 @@ export const pdata = [
         link:"https://github.com/sagardhande2942/LOC3.0_Scam-2021"
     },
     {
-        title:"CFG Hackathon",
-        desc:"The application is extensively oriented towards handling a huge amount of stakeholders. It organizes all the data efficiently to form an interconnected web of business to business  groups",
-        link:"https://github.com/muskan132/cfg_hack"
-    },
-    {
         title:"Impact Visualizer",
         desc:"A completely functional website for visualising Citizens Association for Child Rights' previous and ongoing projects, as well as graphically showing the impact of their actions. It has a dashboard for keeping track of and updating active tasks.",
         link:"https://github.com/alan2309/CACR-Dash"
