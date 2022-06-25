@@ -4,6 +4,11 @@ export const sdata=[
         percent:"100",
         color:"red"   
       },
+      {
+        skill:"PYTHON",
+        percent:"97",
+        color:"#AF69A0"    
+      },
     {
       skill:"PANDAS",
       percent:"95",
@@ -21,7 +26,7 @@ export const sdata=[
       },
       {
         skill:"TABLEAU",
-        percent:"100",
+        percent:"95",
         color:"#CA472F"    
       },
       {
@@ -39,14 +44,9 @@ export const sdata=[
             percent:"50",  
             color:"#0B84A5" 
           },
-        {
-            skill:"PYTHON",
-            percent:"100",
-            color:"#AF69A0"    
-          },
           {
             skill:"JAVA",
-            percent:"100",
+            percent:"95",
             color:"#FF7676"    
           },
 ]
